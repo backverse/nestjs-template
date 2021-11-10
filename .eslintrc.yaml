@@ -24,4 +24,7 @@ rules:
   sonarjs/no-duplicate-string:
     - error
     - 5
+  sort-imports:
+    - error
+    - ignoreDeclarationSort: true
   unused-imports/no-unused-imports: error
