@@ -7,6 +7,8 @@ plugins:
   - unused-imports
 extends:
   - plugin:@typescript-eslint/recommended
+  - plugin:import/recommended
+  - plugin:import/typescript
   - plugin:prettier/recommended
   - plugin:sonarjs/recommended
 root: true
@@ -20,6 +22,14 @@ rules:
   '@typescript-eslint/explicit-module-boundary-types': off
   '@typescript-eslint/interface-name-prefix': off
   '@typescript-eslint/no-explicit-any': off
+  import/order:
+    - error
+    - newlines-between: never
+      pathGroups:
+        - pattern: '@*/**'
+          group: 'external'
+      alphabetize:
+        order: 'asc'
   prettier/prettier: off
   sonarjs/no-duplicate-string:
     - error
