@@ -48,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.12.0"],\
             ["eslint-config-prettier", "virtual:a754c7dfd8d6abb110d8e3f62d6d1ca7b7ac68bfb27a28d938ddc98cc18d864896b05ef8267ce939e39ed6757509602c48ba3c2e7b8a1f36514a31b2893b7681#npm:8.5.0"],\
             ["eslint-plugin-prettier", "virtual:a754c7dfd8d6abb110d8e3f62d6d1ca7b7ac68bfb27a28d938ddc98cc18d864896b05ef8267ce939e39ed6757509602c48ba3c2e7b8a1f36514a31b2893b7681#npm:4.0.0"],\
+            ["eslint-plugin-sonarjs", "virtual:a754c7dfd8d6abb110d8e3f62d6d1ca7b7ac68bfb27a28d938ddc98cc18d864896b05ef8267ce939e39ed6757509602c48ba3c2e7b8a1f36514a31b2893b7681#npm:0.12.0"],\
             ["jest", "virtual:a754c7dfd8d6abb110d8e3f62d6d1ca7b7ac68bfb27a28d938ddc98cc18d864896b05ef8267ce939e39ed6757509602c48ba3c2e7b8a1f36514a31b2893b7681#npm:27.5.1"],\
             ["prettier", "npm:2.6.1"],\
             ["reflect-metadata", "npm:0.1.13"],\
@@ -4096,6 +4097,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["eslint-plugin-sonarjs", [\
+        ["npm:0.12.0", {\
+          "packageLocation": "./.yarn/cache/eslint-plugin-sonarjs-npm-0.12.0-0573708206-96be3002ce.zip/node_modules/eslint-plugin-sonarjs/",\
+          "packageDependencies": [\
+            ["eslint-plugin-sonarjs", "npm:0.12.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:a754c7dfd8d6abb110d8e3f62d6d1ca7b7ac68bfb27a28d938ddc98cc18d864896b05ef8267ce939e39ed6757509602c48ba3c2e7b8a1f36514a31b2893b7681#npm:0.12.0", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-sonarjs-virtual-1279d439a0/0/cache/eslint-plugin-sonarjs-npm-0.12.0-0573708206-96be3002ce.zip/node_modules/eslint-plugin-sonarjs/",\
+          "packageDependencies": [\
+            ["eslint-plugin-sonarjs", "virtual:a754c7dfd8d6abb110d8e3f62d6d1ca7b7ac68bfb27a28d938ddc98cc18d864896b05ef8267ce939e39ed6757509602c48ba3c2e7b8a1f36514a31b2893b7681#npm:0.12.0"],\
+            ["@types/eslint", null],\
+            ["eslint", "npm:8.12.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/eslint",\
+            "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["eslint-scope", [\
         ["npm:5.1.1", {\
           "packageLocation": "./.yarn/cache/eslint-scope-npm-5.1.1-71fe59b18a-47e4b6a3f0.zip/node_modules/eslint-scope/",\
@@ -4915,6 +4938,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.12.0"],\
             ["eslint-config-prettier", "virtual:a754c7dfd8d6abb110d8e3f62d6d1ca7b7ac68bfb27a28d938ddc98cc18d864896b05ef8267ce939e39ed6757509602c48ba3c2e7b8a1f36514a31b2893b7681#npm:8.5.0"],\
             ["eslint-plugin-prettier", "virtual:a754c7dfd8d6abb110d8e3f62d6d1ca7b7ac68bfb27a28d938ddc98cc18d864896b05ef8267ce939e39ed6757509602c48ba3c2e7b8a1f36514a31b2893b7681#npm:4.0.0"],\
+            ["eslint-plugin-sonarjs", "virtual:a754c7dfd8d6abb110d8e3f62d6d1ca7b7ac68bfb27a28d938ddc98cc18d864896b05ef8267ce939e39ed6757509602c48ba3c2e7b8a1f36514a31b2893b7681#npm:0.12.0"],\
             ["jest", "virtual:a754c7dfd8d6abb110d8e3f62d6d1ca7b7ac68bfb27a28d938ddc98cc18d864896b05ef8267ce939e39ed6757509602c48ba3c2e7b8a1f36514a31b2893b7681#npm:27.5.1"],\
             ["prettier", "npm:2.6.1"],\
             ["reflect-metadata", "npm:0.1.13"],\
